@@ -1,0 +1,38 @@
+body{background-color: rgb(31, 60, 45);}
+div.relative{position: relative;
+right: 30px;}
+.center{display: block;
+    margin-left: auto;
+margin-right: auto;
+}
+h1{text-align: center;
+font-variant: small-caps;
+font-style: unset;
+color: rgb(247, 243, 229);
+border:3px dotted rgb(235, 216, 196);
+font-style: oblique;
+}
+
+hr{color: rgb(255, 183, 0);}
+.king{background-color: rgb(77, 96, 59);
+font-size: large;
+font-family: 'Franklin Gothic Medium', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Arial, sans-serif;
+font-kerning: var(30px);
+color: rgb(255, 255, 255);
+font-stretch:expanded;
+text-align: center;
+border: 2px dotted rgb(182, 169, 154);}
+
+p{color: antiquewhite;}
+.mostofthetime{color:rgb(255, 170, 0);
+font-variant: small-caps;
+font-size: larger;}
+
+.tigerorange{color:rgb(255, 170, 0);
+    font-variant: small-caps;
+    font-size: larger;}
+
+    .movemove {text-align: left;}
+
+    a{color: rgb(255, 183, 0);}
+    a:hover{color: rgb(141, 80, 199);}
