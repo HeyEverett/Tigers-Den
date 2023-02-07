@@ -1,5 +1,7 @@
-body{background-image: url(gutan.jpg);}
-h2{border: 5px double white;}
+body{background-color: rgb(20, 26, 15);}
+h2{border: 5px double white;
+color: white;}
 header{text-align: center;
-font-size: x-large;
-background-color: antiquewhite;}
+font-size:40px;
+font-family: 'Cinzel', serif;
+color: goldenrod;}

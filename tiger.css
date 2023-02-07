@@ -1,4 +1,4 @@
-body{background-color: rgb(31, 60, 45);}
+body{background-color: rgb(31, 60, 45);padding: 7px;}
 div.relative{position: relative;
 right: 30px;}
 .center{display: block;
@@ -34,5 +34,32 @@ font-size: larger;}
 
     .movemove {text-align: left;}
 
-    a{color: rgb(255, 183, 0);}
+    a:link {color: rgb(255, 183, 0); }
     a:hover{color: rgb(141, 80, 199);}
+
+    .box{
+    width: 200px;
+height: 200px;}
+
+.absolutely{position: absolute;
+top: 10%;
+right:30px;
+height: 600px;}
+
+.sticky{position: sticky;
+
+right:60px;
+top: 0%;
+height: 20px;
+width:20px;}
+
+.bumper{
+position: absolute;
+top:70%;
+right: 90px;}
+
+.quitepassionatebox{border: 2px double cornflowerblue;
+padding: 15px;}
+
+.breathe {height:400px;
+width:300px;}
