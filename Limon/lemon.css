@@ -1,0 +1,85 @@
+.innit { background-image: radial-gradient(rgb(128, 170, 194) 5%, rgb(74, 157, 212) 25%, rgb(63, 113, 220), rgb(140, 175, 197), rgb(164, 194, 237), rgb(255, 255, 255)); 
+    position:sticky;
+    padding: 5px;
+    border-width: 8px; 
+    border-style: inset;
+border-color: yellow yellow orange orange;
+border-radius: 8px;
+color: aliceblue;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+.greenbeanerborder {border-style: double;
+        border-color: green tan green tan;
+        border-width: 10px;
+    width: 300px; height:400px;
+position: relative;
+left:37%;
+top:10px;
+object-fit: cover;}
+
+
+
+body{background-color: rgb(189, 223, 224); background-image: -moz-repeating-radial-gradient(white blue green );
+ }
+h1{background-color:rgb(255, 221, 0);
+    color: green;
+    width:auto;
+    height: 60px;
+padding: 8px;
+font-family: 'Cinzel', serif;
+border-style: none none none solid;
+border-color:green;
+border-radius: 5px;}
+
+img{object-fit: scale-down 20px;}
+
+h2{background-color:rgb(255, 221, 0);
+    color: green;
+    width: 833px;
+    height: 60px;
+padding: 8px;
+padding-top: 23px;
+font-family: 'Cinzel', serif;
+font-size: x-large;
+border-style: none none none solid;
+border-color:green;
+border-radius: 5px;}
+
+.sticky{background-color: rgb(226, 198, 43);
+    position:sticky;
+    top: 0%;
+  
+    left: 20px;
+    }
+
+   .shakyshake{position:absolute;
+    left:1000px;
+    right: 3px;
+    width: 100px;
+    height:85px;
+    top: 1040px;
+background-image: url(pointle.png);
+background-size: 100px;}
+
+.spinmesick{position:relative;
+    left:640px;
+    right: 3px;
+    width: 100px;
+    height:200px;
+    top: 25px;
+background-image: url(rind.gif);
+background-size: 50%;
+background-position: 100px;}
+
+p{border: 5px double white;
+padding: 8px;
+}
+.sticker{text-align: center;
+   background-color: green;
+   width: 100px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
+left:45%;
+bottom: 3px;
+color: rgb(255, 0, 0);
+border: 2px;}

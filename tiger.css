@@ -26,7 +26,8 @@ border: 2px dotted rgb(182, 169, 154);}
 p{color: antiquewhite;}
 .mostofthetime{color:rgb(255, 170, 0);
 font-variant: small-caps;
-font-size: larger;}
+font-size: larger;
+padding: 5px;}
 
 .tigerorange{color:rgb(255, 170, 0);
     font-variant: small-caps;
@@ -58,8 +59,15 @@ position: absolute;
 top:70%;
 right: 90px;}
 
-.quitepassionatebox{border: 2px double cornflowerblue;
-padding: 15px;}
+.quitepassionatebox{border: 4px dotted cornflowerblue;
+padding: 15px;
+background-color: rgb(141, 80, 199);
+width: 700px;}
 
 .breathe {height:400px;
 width:300px;}
+
+a {color:rgb(255, 255, 255);
+    font-variant: small-caps;
+    font-size: medium;}
+    
