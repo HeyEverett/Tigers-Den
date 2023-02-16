@@ -23,11 +23,15 @@ font-stretch:expanded;
 text-align: center;
 border: 2px dotted rgb(182, 169, 154);}
 
-p{color: antiquewhite;}
+
 .mostofthetime{color:rgb(255, 170, 0);
 font-variant: small-caps;
 font-size: larger;
 padding: 5px;}
+
+h3{color: white;
+text-align: center;
+text-decoration:wavy;}
 
 .tigerorange{color:rgb(255, 170, 0);
     font-variant: small-caps;
@@ -45,7 +49,8 @@ height: 200px;}
 .absolutely{position: absolute;
 top: 10%;
 right:30px;
-height: 600px;}
+height: 600px;
+}
 
 .sticky{position: sticky;
 
@@ -57,17 +62,62 @@ width:20px;}
 .bumper{
 position: absolute;
 top:70%;
-right: 90px;}
+right: 100px;}
 
-.quitepassionatebox{border: 4px dotted cornflowerblue;
+.quitepassionatebox{border: 6px dotted cornflowerblue;
 padding: 15px;
-background-color: rgb(141, 80, 199);
-width: 700px;}
+background-color: rgb(124, 113, 56);
+width: 700px;
+animation: denlight 3s infinite;}
 
 .breathe {height:400px;
-width:300px;}
+width:100%;
+overflow: hidden;}
 
-a {color:rgb(255, 255, 255);
+a {color:rgb(158, 158, 158);
     font-variant: small-caps;
-    font-size: medium;}
+    font-size: medium;
+border: 4px rgb(154, 183, 206) inset;
+padding: 3px;
+background-color:rgb(110, 77, 77) ;}
+
+.denblood{background-color: rgb(31, 60, 45);
+   font-family: serif;
+   text-align: center;
+   font-size: large;
+   width: 500px;
+   position: relative;
+   left: 440px;
+   border: 3px solid rgb(171, 101, 206);
+animation: fades 20s infinite ;
+animation-direction: alternate;
+padding: 5px;
+text-shadow: 3px 3px 3px rgb(47, 68, 46);}
+
+a:hover {border: 4px grey outset;
+color: aliceblue;
+background-color: rgb(171, 52, 52);}
+
+    #flashing {border: 6px dotted cornflowerblue;
+        padding: 15px;
+        background-color: rgb(203, 169, 124);
+        width: 1000px;
+    animation: denlight 3s infinite; 
+position: relative;
+left: 2%;}
     
+    @keyframes denlight{50%{border:6px dotted white}}
+
+    #prowl {width:200px;
+    height:120px;
+    overflow: hidden;
+
+translate: 0 0;
+animation: proud 18s infinite;
+}
+
+@keyframes proud
+{from{translate: -300px;} 40%{translate: 1500px;} 40%{transform:scalex(1)} 44%{transform:scalex(-1)} 84%{transform:scalex(-1)}to{translate: -1000px;}}
+
+@keyframes fades
+{from {background-color: rgb(31, 60, 45)} 50%{background-color: rgb(182, 14, 14);}  75%{background-color: powderblue} to{background-color: rgb(255, 183, 0);}}

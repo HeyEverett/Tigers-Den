@@ -5,6 +5,7 @@
     border-style: inset;
 border-color: yellow yellow orange orange;
 border-radius: 8px;
+text-align: center;
 color: aliceblue;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
@@ -19,15 +20,17 @@ object-fit: cover;}
 
 
 
-body{background-color: rgb(189, 223, 224); background-image: -moz-repeating-radial-gradient(white blue green );
- }
+body{background-color: rgb(189, 223, 224); background-image: url(bird.jpg);
+background-blend-mode:soft-light; 
+}
 h1{background-color:rgb(255, 221, 0);
     color: green;
     width:auto;
     height: 60px;
 padding: 8px;
+text-align: center;
 font-family: 'Cinzel', serif;
-border-style: none none none solid;
+border-style: none solid none solid;
 border-color:green;
 border-radius: 5px;}
 
@@ -83,3 +86,14 @@ left:45%;
 bottom: 3px;
 color: rgb(255, 0, 0);
 border: 2px;}
+
+a {color:rgb(158, 158, 158);
+    font-variant: small-caps;
+    font-size: medium;
+border: 4px rgb(154, 183, 206) inset;
+padding: 3px;
+background-color:rgb(110, 77, 77) ;}
+
+a:hover {border: 4px grey outset;
+    color: aliceblue;
+    background-color: rgb(171, 52, 52);}
