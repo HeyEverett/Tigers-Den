@@ -100,7 +100,7 @@ background-color: rgb(171, 52, 52);}
 
     #flashing {border: 6px dotted cornflowerblue;
         padding: 15px;
-        background-color: rgb(203, 169, 124);
+        background-color:rgb(124, 113, 56);
         width: 1000px;
     animation: denlight 3s infinite; 
 position: relative;
@@ -116,8 +116,26 @@ translate: 0 0;
 animation: proud 18s infinite;
 }
 
-@keyframes proud
-{from{translate: -300px;} 40%{translate: 1500px;} 40%{transform:scalex(1)} 44%{transform:scalex(-1)} 84%{transform:scalex(-1)}to{translate: -1000px;}}
+@keyframes proud {
+    from {
+        translate: -300px;
+    } 
+    40% {
+        translate: 1500px;
+    } 
+    40% {
+        transform:scalex(1)
+    }
+    44% {
+        transform:scalex(-1)
+    }
+    84% {
+        transform:scalex(-1)
+    }
+    to {
+        translate: -1000px;
+    }
+}
 
 @keyframes fades
 {from {background-color: rgb(31, 60, 45)} 50%{background-color: rgb(182, 14, 14);}  75%{background-color: powderblue} to{background-color: rgb(255, 183, 0);}}
