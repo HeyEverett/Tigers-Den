@@ -1,0 +1,70 @@
+*{box-sizing: border-box;}
+
+body {
+background: rgb(255, 122, 122);
+
+}
+
+header, footer, .side, .center {
+
+     background: rgb(255, 181, 181);
+    padding: 10px;
+
+}
+
+header {
+
+text-align: center;
+
+}
+
+footer {
+   
+    margin-top: 9px;
+    text-align: center;
+}
+
+.side {
+    width: 25%;
+   
+    overflow: scroll;
+    border: 3px black;
+
+
+}
+
+.center {
+
+   
+    width: 50%;
+}
+
+main {
+
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+img { 
+
+    width: 200px;
+
+}
+
+@media screen and (max-width:800px) 
+{   body { background-color: rosybrown;}
+
+
+main {
+
+    flex-direction: column}
+    .side{ width: 100%; color: brown;}
+    
+    .center{width:100%}
+
+header {flex-direction: column; 
+
+}
+
+}

@@ -1,0 +1,129 @@
+*{box-sizing: border-box;}
+
+.red{background-color: red;}
+
+.container { 
+    max-width:1100px;
+    margin:0 auto ;
+    padding: 0 30px;
+    position: sticky;
+    top: 0;
+
+}
+
+.navbar { 
+    background-color: rgb(188, 159, 129);
+    color: rgb(255, 255, 255);
+    height: 40px;
+    position: sticky;
+    top: 0;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar .logo { font-size: x-large;
+    font-weight: bold;
+    font-family: 'Babylonica', cursive;
+}
+
+.navbar .container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a { 
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    padding: 3px;
+   
+}
+
+.navbar:hover {color: orange;}
+
+.navbar ul {
+ display: flex;
+
+
+}
+
+.navbar ul li 
+{
+    margin-left: 90px;
+}
+
+.header {
+    background-color: orange;
+}
+
+body {background-color: rgb(123, 115, 109);
+margin: 9px;}
+
+.uptop { min-width: fit-content;
+background-color: rgb(162, 62, 51);
+height: 3em;
+color: antiquewhite;
+position: relative;
+object-fit: cover;
+display: flex;
+position: sticky;
+top: 0;
+
+
+
+}
+
+.uptop p {text-align: center;
+    position: absolute;
+color: rgb(50, 36, 13);
+margin-left: 42%;
+margin-bottom: 7px;
+font-size: x-large;
+    
+    font-family: 'Babylonica', cursive;
+    bottom: 2.5px;
+}
+
+.fade {position: absolute;
+    min-width:100%;
+    height: 3em;
+    object-fit: cover;
+    
+    animation: bobdole 8s infinite;
+    animation-direction: alternate-reverse;
+    
+}
+
+.pict {height: 70vh; 
+background-color: black;
+border:red 8px  ;
+object-fit: cover;
+position: relative;
+margin: 10px;
+overflow: hidden;}
+
+.innere {
+position: absolute;
+left: 280px;
+overflow: hidden;}
+
+@keyframes bobdole { from{ opacity: 1; } to{ opacity: 0;}}
+
+img {object-fit: contain;}
+
+.ami {background-image: radial-gradient(rgb(178, 161, 134), rgb(123, 115, 109) 25%, rgb(178, 161, 134), rgb(181, 171, 163), rgb(123, 115, 109));
+height: 200px;
+background-color: aqua;
+border: #fff double;
+}
+

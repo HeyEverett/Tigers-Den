@@ -1,0 +1,333 @@
+*{box-sizing: border-box;}
+
+/* .red{background-color: red;} 
+
+.container { 
+    min-width:1100px;
+    min-height:100vh ;
+    margin:0 auto ;
+    /* background-color: aliceblue; 
+    padding: 0 30px;
+    position:absolute;
+    left: 0;
+    top: 0;
+   
+}
+
+.navbar { 
+    background-color: rgb(179, 24, 24);
+    color: rgb(255, 255, 255);
+    height: 60px;
+}
+
+h1,
+h2 {
+    margin-bottom: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.navbar .logo { font-size: x-large;
+    font-weight: bold;
+    font-family: 'Babylonica', cursive;
+}
+
+.navbar .yea .container { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a { 
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background-color:orange;
+    padding: 3px;
+   
+}
+
+.navbar:hover {color: orange;}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li 
+{
+    margin-left: 20px;
+}
+
+.header {
+    background-color: orange;
+}
+
+
+
+
+
+
+.red1 {
+    height: 100vh;
+    background-color: aqua;
+    width: 4vw;
+    
+
+}
+.red2 {
+    height: 100vh;
+    background-color: rgb(0, 255, 179);
+    width: 4vw;
+
+}
+.red3 {
+    height: 100vh;
+    background-color: rgb(0, 255, 191);
+    width: 4vw;
+
+}
+.red4 {
+    height: 100vh;
+    background-color: rgb(0, 255, 128);
+    width: 4vw;
+
+}
+.red5 {
+    height: 100vh;
+    background-color: rgb(0, 255, 85);
+    width: 4vw;
+/* } */
+
+.smack-box{width: 1000vh;
+height:100vh;
+background-color: black;
+position: relative;
+left: 0px;
+right: 0px;}
+
+.yea { 
+    /* background-color: rgb(179, 24, 24); */
+    color: rgb(255, 255, 255);
+    height: 60px;}
+
+.and { 
+    margin:0 auto ;
+    padding: 0 20px;
+   display: flex;
+align-items:flex-start;
+justify-content: center;
+
+}
+
+body {background-color: silver;
+animation: body 5s infinite;
+animation-direction: alternate-reverse;}
+
+.yea .and{display: flex;
+    justify-content: space-around;
+    align-items:center;}
+
+.blue1 {
+    height: 100vh;
+    width: 4vw;
+    background-color: aqua;
+   
+    animation: siberian 10s infinite ;
+    animation-direction: alternate-reverse;
+    
+
+}
+.blue2 {
+    height: 100vh;
+    width: 4vw;
+    background-color: rgb(0, 255, 179);
+    animation: blacks 10s infinite ;
+    animation-direction: alternate-reverse;
+
+}
+.blue3 {
+    height: 100vh;
+    width: 4vw;
+    background-color: rgb(0, 255, 191);
+    animation: siberian 10s infinite ;
+    animation-direction: alternate-reverse;
+
+}
+.blue4 {
+    height: 100vh;
+    width: 4vw;
+    background-color: rgb(0, 255, 128);
+    animation: blacks 10s infinite ;
+    animation-direction: alternate-reverse;
+}
+.blue5 {
+    height: 100vh;
+    width: 4vw;
+    background-color: rgb(0, 255, 85);
+    animation: siberian 6s infinite ;
+    animation-direction: alternate-reverse;}
+
+
+    .you { 
+        /* background-color: rgb(179, 24, 24); */
+        color: rgb(255, 255, 255);
+        height: 60px;
+        width: 100vw;
+    position:absolute ; 
+ left:0;
+right:0;}
+        
+    
+    .too { 
+        margin:0 auto ;
+        width: 100vw;
+        padding: 0 20px;
+        display: flex;
+        justify-content:start;
+        align-items:flex-start;
+  
+    }
+    
+    .hoo1 {
+    height: 100vh;
+    width: 4vw;
+    background-color: aqua;
+    margin-right: 12vw;
+    animation: blacks 6s infinite ;
+    animation-direction: alternate-reverse;
+
+   
+
+    
+
+}
+.hoo2 {
+    height: 100vh;
+    width: 4vw;
+    background-color: rgb(0, 255, 179);
+    margin-right: 16vw;
+    animation: goldtiger 8s infinite ;
+    animation-direction: alternate-reverse;
+
+
+}
+.hoo3 {
+    height: 100vh;
+    width: 4vw;
+    background-color: rgb(0, 255, 191);
+    margin-right: 15vw;
+    animation: roar 4s infinite ;
+    animation-direction: alternate-reverse;
+
+   
+
+}
+.hoo4 {
+    height: 100vh;
+    width: 4vw;
+    background-color: rgb(0, 255, 128);
+    margin-right: 17vw;
+    animation: smacks 6s infinite ;
+    animation-direction: alternate-reverse;
+
+
+}
+.hoo5 {
+    height: 100vh;
+    width: 4vw;
+    background-color: rgb(0, 255, 85);
+    margin-right: 10vw;
+    animation: blacks 10s infinite ;
+    animation-direction: alternate-reverse;
+}
+    
+
+
+    .no {  color: rgb(255, 255, 255);
+        height: 60px;
+        width: 100vw;
+    position:absolute ; 
+    
+ left:0;
+right:0;}
+
+    
+
+
+    .thanks { 
+        margin:0 auto ;
+        
+        width: 100vw;
+        height: 100vh;
+        padding: 0 20px;
+        display: grid;
+        grid-template-columns:0;
+       
+  
+    }
+    
+
+
+    .im {
+        height:100px;
+        width: 100vw;
+        background-color: aqua;
+        margin-right: 12vw;
+        animation: goldtiger 10s infinite ;
+        animation-direction: alternate-reverse;
+    
+        
+    
+    }
+    .cryin {
+        height: 100px;
+        width: 100vw;
+        background-color: rgb(0, 255, 179);
+        margin-right: 16vw;
+        animation: roar 10s infinite ;
+        animation-direction: alternate-reverse
+    
+    }
+    .rest {
+        height: 100px;
+        width: 100vw;
+        animation: goldtiger 7s infinite ;
+        animation-direction: alternate-reverse;
+        background-color: rgb(0, 255, 191);
+        margin-right: 15vw;
+        
+       
+    
+    }
+    .easy {
+        height: 100px;
+        width: 100vw;
+        background-color: rgb(0, 255, 128);
+        margin-right: 17vw;
+        animation: roar 5s infinite ;
+        animation-direction: alternate-reverse;
+    
+    }
+    .now {
+        height: 100px;
+        width: 100vw;
+        animation: goldtiger 10s infinite ;
+        animation-direction: alternate-reverse;
+        background-color: rgb(0, 255, 85);
+        margin-right: 10vw;}
+
+@keyframes body {from{background-color: rgb(33, 68, 76);} 50%{background-color: rgb(120, 66, 48);} to{background-color: rgb(66, 41, 21);}}
+
+@keyframes goldtiger {from {background-color:rgb(125, 72, 18); translate: 3px;} 50%{background-color: rgb(254, 97, 0);} to{background-color: rgb(100, 21, 20); translate: 3px;}}
+
+@keyframes roar {from {background-color:rgb(236, 201, 0)} 50%{background-color: rgb(174, 135, 73);} to{background-color: rgb(85, 60, 47);}}
+
+@keyframes siberian {from {background-color:rgb(76, 84, 36)} 50%{background-color: rgb(175, 209, 41);} to{background-color: rgb(102, 183, 153);}}
+
+
+@keyframes blacks {from {background-color:rgb(65, 52, 77)} 50%{background-color: rgb(162, 95, 110);} to{background-color: rgb(106, 106, 172);}}
+
+@keyframes smacks {from {background-color:rgb(110, 57, 81)} 50%{background-color: rgb(118, 19, 19);} to{background-color: rgb(99, 21, 56);}}
