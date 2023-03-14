@@ -1,7 +1,7 @@
 /* .welcome-welcome-welcome */
  *{
     box-sizing: border-box;
-    overflow: hidden;
+   
 }
 
 
@@ -21,7 +21,7 @@ opacity: 80%;
 }
 
 
-body {background-image: url(open.gif);    
+body {background-image: url(open.GIF);    
     background-size: cover;}
 
 
