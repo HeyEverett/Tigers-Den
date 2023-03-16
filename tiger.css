@@ -106,6 +106,15 @@ background-color: rgb(171, 52, 52);}
 position: relative;
 left: 2%;}
     
+.lashing {border: 6px dotted cornflowerblue;
+    padding: 15px;
+    background-color:rgb(124, 113, 56);
+    width: 500px;
+animation: denlight 3s infinite; 
+position: relative;
+left: 2%;}
+
+
     @keyframes denlight{50%{border:6px dotted white}}
 
     #prowl {width:200px;

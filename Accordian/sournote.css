@@ -1,0 +1,66 @@
+*{box-sizing: border-box;}
+
+body {
+background-image: url(phonto.PNG);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: black;
+
+}
+
+a {opacity: 0;
+background-color: rgb(246, 255, 0);
+color: black;
+border: green double;}
+
+a:hover {color: white;
+background-color: aquamarine;}
+
+@media screen and (max-width:940px) 
+{   body { background-image: url(phonto-2.PNG);}
+
+
+main {
+
+    flex-direction: column}
+    .side{ width: 100%; color: brown;}
+    
+    .center{width:100%}
+
+header {flex-direction: column; 
+
+}
+
+}
+@media screen and (max-width:800px)
+{   body {background-image:url(O.PNG)}
+
+
+}
+
+@media screen and (max-width:700px)
+{   body {background-image:url(P.PNG)}
+
+
+}
+
+@media screen and (max-width:600px)
+{   body {background-image:url(A.PNG)}
+
+
+}
+@media screen and (max-width:500px)
+{   body {background-image:url(L.PNG)}
+
+
+}
+@media screen and (max-width:450px)
+{   body { 
+    background-image:url(S.PNG);
+    border: black;
+    background-blend-mode:exclusion;
+    
+}
+a {opacity: 1;}
+
+}

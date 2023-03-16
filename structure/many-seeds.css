@@ -44,9 +44,17 @@ a {
   
     text-decoration: none;
     color: black;
+    /* width:100px;
+    height: 75px; */
+    
 }
 
-a:hover {color: greenyellow;}
+a:hover {
+    color: greenyellow;
+    text-shadow: 9px rgb(0, 255, 42);
+    
+    
+}
 
 .buzzerbeeper {position: absolute;
     display: flex;
