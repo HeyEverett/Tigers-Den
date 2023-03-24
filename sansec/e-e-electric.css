@@ -1,0 +1,194 @@
+* {box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+padding: 4px;
+margin: 2px;}
+
+body { background-color: rgb(37, 76, 142);
+        
+
+
+
+
+}
+
+.topinspace { 
+    height: 75px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(152, 77, 23);
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow: contain;
+    display: flex;
+
+    align-items: center;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.topinspace > p {
+    text-align: center;
+    justify-self: center;
+    position: relative;
+    left: 34vw;
+    top: 0;
+  
+    
+}
+
+.topinspace > button { position: relative;
+    left: 700px;
+    top: 0px;
+}
+
+
+.topinspace > img {float: left;}
+
+.spacehopper {
+    background-color: rgb(181, 200, 233);
+    width: 100vw;
+   height: 40px;
+   display: flex;
+   align-items:center;
+   justify-content: space-between;
+    margin: 2px 2px 20px 2px;
+    overflow: hidden;
+
+}
+
+.cargobox {
+
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+}
+
+.cargobox > div:nth-child(odd) {background-color:antiquewhite;}
+
+.bar-ceiling {
+    width:100vw; 
+    height: 20px;
+    background-color: rgb(172, 27, 27);
+}
+
+.sidebars {display: grid;
+grid-template-columns: 10% 80% 10%;
+}
+
+.bar {
+  
+    background-color: brown;
+    width:50px;
+    height: 100vh;
+    position:relative;
+    left: 100%;
+
+
+}
+
+.bars {
+    
+    background-color: brown;
+    width:50px;
+    height: 100vh;
+    position:relative;
+    right: 100%;
+
+
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(11, 61, 145);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color:  rgb(16, 57, 126)}
+  
+  button:active {
+    background-color:  rgb(105, 26, 17);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+
+
+}
+.sensor-stick {
+    
+    background-color: antiquewhite ;
+    position: relative;
+    color: antiquewhite;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    border: 3px blue double;
+overflow: hidden;
+font-size: 16px;
+margin-top: 70px;
+}
+.sensor-stick > img:hover {opacity: 0;
+transition: .5s;}
+
+.sensor-stick > img {
+
+position: absolute;
+top: 0;
+left: 0;
+width: 900px;
+margin-bottom: 7px;
+animation: sensorgo 3s 2 alternate-reverse ease-in-out;
+}
+
+.sensor-stick > p { 
+    background-color:rgb(166, 37, 37);
+    border: 3px white;
+    margin-top: 10px;
+  
+
+}
+
+.shift {background-color: red;
+color:rgb(11, 61, 145) ;
+font-size: 33px;}
+
+p {transition: .8s;}
+
+.challenger { 
+    background-color: rgb(147, 37, 37);
+    width: 50vw;
+    height: 60px;
+    border-left: 4px solid antiquewhite;
+    color: rgb(240, 185, 185);
+    border-radius: 6px;
+    padding: 3px;
+    overflow:scroll;
+    margin-bottom: 40px;
+    position: relative;
+    left: 25vw;
+    top: 0px;
+}
+
+
+.simple {
+  width:50vw;
+  background-color:antiquewhite;
+  height: 70px;
+}
+
+.yup {background-color: antiquewhite;}
+.anna {background-color: rgb(246, 207, 207);}
+
+div {padding:5px;
+margin:3px;}
+
+@keyframes sensorgo { from {opacity: .5;} to {opacity: 1;}}
