@@ -1,5 +1,7 @@
 *{box-sizing: border-box;}
 
+html, body {max-width: 100%; overflow-x: hidden;}
+
 .lightblink {animation: dance 10s infinite reverse;
   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
   
@@ -136,3 +138,34 @@ padding: 19px;
 
 a:hover {color: pink;}
 a:visited {color:rgb(255, 179, 0)}
+
+@keyframes denlight{50%{border:6px dotted white}}
+
+    #prowl {width:200px;
+    height:120px;
+    overflow: hidden;
+
+translate: 0 0;
+animation: proud 18s infinite;
+}
+
+@keyframes proud {
+  from {
+      translate: -300px;
+  } 
+  40% {
+      translate: 1500px;
+  } 
+  40% {
+      transform:scalex(1)
+  }
+  44% {
+      transform:scalex(-1)
+  }
+  84% {
+      transform:scalex(-1)
+  }
+  to {
+      translate: -1000px;
+  }
+}
