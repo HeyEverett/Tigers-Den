@@ -1,0 +1,25 @@
+*{box-sizing: border-box;}
+
+
+body {
+
+    background-color: lightblue;
+}
+
+
+
+.flex {
+    margin-top:100px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid;
+
+}
+

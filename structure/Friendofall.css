@@ -1,0 +1,180 @@
+*{box-sizing: border-box;}
+
+body {background-color: rgb(93, 22, 44);}
+
+.box {
+    width: 400px; 
+    height:200px; 
+    background-color:rgb(224, 224, 163);
+    position:absolute;
+    left: 4px;
+    top: 500px;
+    font-family: 'Caveat', cursive;
+    padding: 8px;
+
+}
+
+
+.boxy {
+    width: 400px; 
+    height:200px; 
+    background-color:rgb(224, 224, 163);
+    position:absolute;
+    left: 29px;
+    top: 490px;
+    font-family: 'Caveat', cursive;
+    padding: 8px;
+
+}
+
+
+.notecardcontainer { 
+width: 100vw;
+height: 600px;
+display: flex;
+
+
+
+
+
+}
+
+.booton {background-color: red;}
+
+.thoughts { background-color: grey;
+border-radius: 10%;
+color: white;
+height: 100px;
+width: 200px;
+padding: 10px;
+position: relative;
+bottom: 690px;
+left: 80px;
+opacity: 0;
+transition: .7s;
+}
+
+
+.singsadlady {opacity: 0; 
+    position: relative;
+bottom: 600px;
+left: 80px;
+transition: 3s;
+}
+
+.chalkboard {position: absolute;
+left: 700px}
+
+.chalkboard > img {position: absolute;
+    }
+
+.chalkboard > p {position: relative;
+left:70px;
+font-family: 'Caveat', cursive;}
+
+
+.juice {width:50px;
+height: 70px;
+opacity: 0;
+transition: .4s;
+}
+
+.show {opacity: 1;}
+
+h1 {
+
+    color: white;
+
+
+}
+
+.livingroom {
+
+position: absolute;
+width: 100vw;
+height: 900px;
+
+}
+.pictures {
+
+width: 800px;
+height:100px;
+
+display: flex;
+justify-content: space-between;
+position: relative;
+top:290px;
+left:110px;
+
+
+
+
+}
+
+.frame {
+
+width: 100px;
+height: 100px;
+background-color: antiquewhite;
+border: solid 4px rgb(88, 47, 47);
+overflow: hidden;
+
+}
+
+.framez {
+
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    border: solid 4px rgb(88, 47, 47);
+    overflow: hidden;
+    
+    }
+
+    .framel {
+
+        width: 100px;
+        height: 100px;
+        background-color: antiquewhite;
+        border: solid 4px rgb(88, 47, 47);
+        overflow: hidden;
+        
+        }
+
+        .framee {
+
+            width: 100px;
+            height: 100px;
+            background-color: antiquewhite;
+            border: solid 4px rgb(88, 47, 47);
+            overflow: hidden;
+            
+            }
+
+    .framez > img:hover {mix-blend-mode: difference;}
+
+    .framel > img:hover {mix-blend-mode: difference;}
+
+    .framee > img:hover {mix-blend-mode: difference;}
+
+
+
+.frame > img {
+
+max-width: fit-content;
+overflow: hidden;
+}
+
+.box > h1 {color: rgb(53, 43, 27);}
+
+.boxy > h1 {color: rgb(53, 43, 27);}
+
+.ImGonnaSwing { 
+z-index: -1;
+position: absolute;
+top: -40px;
+left: 50vw;
+animation: swinger 6s infinite alternate-reverse;
+}
+
+@keyframes swinger {from {transform: rotate(25deg);} to{transform: rotate(-25deg)}}

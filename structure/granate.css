@@ -1,0 +1,138 @@
+*{box-sizing: border-box;}
+
+.lightblink {animation: dance 10s infinite reverse;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
+  
+  .lightslink {animation: dance 10s infinite;
+      animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);}
+      
+body {background-color: rgb(26, 27, 26);}
+
+.complexwall {display: flex;
+justify-content: center;
+
+
+
+
+}
+
+
+button {color: #fff;
+  background-color: black;
+border: red double 2px;
+padding: 3px;
+font-family: 'Raleway', sans-serif
+}
+button:hover {background-color: #e60000;
+  border: white double 2px;
+color: black;}
+button:active {text-shadow: black 3px 1;
+background-color: white;
+color: white;
+border: black double 2px;
+
+
+}
+
+
+
+.boxy {
+height: 90px;
+width: 900px;
+display: flex;
+align-items: center;
+position: relative;
+left: 28vw;
+padding: 6px;
+width: fit-content;
+border: double 7px;
+animation: goon 3s infinite alternate-reverse ;
+background-color: rgb(221, 102, 150);
+transition: .2s;
+margin: 5px;
+margin-bottom: 60px;
+}
+
+.boxy > header {font-family: 'Raleway', sans-serif;
+font-size: 3em;
+text-align: center;
+border: double 5px;
+color: white;
+animation: coomply 3s infinite alternate-reverse;
+animation-direction: alternate-reverse;
+background-color:rgb(50, 22, 54) ;
+width: fit-content;
+position: relative;
+
+}
+
+
+
+.howmanyidiots {color:rgb(109, 67, 46)}
+
+.dimbulb {color: white;
+  transition: 2.8s;}
+
+@keyframes dance { start{color:white}  25%{color: rgb(91, 34, 25)} 32%{color: grey} 35% {color: rgb(237, 119, 68);} 40%{color: white;} 92% {color: rgb(83, 35, 19)}}
+
+@keyframes soon {0%{color:rgb(237, 127, 8)} 50%{color: white;}100%{color:rgb(236, 126, 16)}}
+
+@keyframes goon {0%{color:rgb(239, 241, 213)} 50%{color: rgb(123, 230, 30);}100%{color:rgb(221, 222, 167)}}
+
+@keyframes coomply {from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #e60000, 0 0 30px #e60000, 0 0 40px #e60000, 0 0 50px #e60000, 0 0 60px #e60000;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #ff854d, 0 0 20px #ff854d, 0 0 30px #ff854d, 0 0 40px #ff854d, 0 0 50px #ff854d, 0 0 60px #ff854d;
+  }
+}
+
+.on {animation: none;
+  color:#fff;
+  left: 27vw;
+  top: 1px;
+  transform: rotate(4deg);
+animation-timing-function: none;
+transition: 1.2s;}
+
+
+.zoom {animation: none;
+  color:#fff;
+  left: 27vw;
+  top: 1px;
+  transform: rotate(4deg);
+animation-timing-function: none;
+transition: .2s;}
+
+.box {width: 300px;
+  height: 300px;
+background-color: rgb(115, 103, 102);
+padding: 8px;
+text-align:center ;
+border: double 3px rgb(221, 83, 122);
+}
+
+.box > h1 {background-color: rgb(169, 185, 219);
+
+border: outset orange 3px;
+color: white;
+text-decoration: overline underline;
+text-decoration-color: rgb(221, 83, 122);
+}
+
+.box:hover {background-color:rgb(100, 63, 59) ;}
+
+.flex {
+
+display: flex;
+width: 100vw;
+height: 600px;
+align-items: center;
+justify-content: space-between;
+padding: 19px;
+
+
+}
+
+a:hover {color: pink;}
+a:visited {color:rgb(255, 179, 0)}

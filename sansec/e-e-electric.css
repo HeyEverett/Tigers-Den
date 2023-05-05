@@ -3,7 +3,27 @@ font-family: Arial, Helvetica, sans-serif;
 padding: 4px;
 margin: 2px;}
 
-body { background-color: rgb(37, 76, 142);
+
+.topinspace { 
+    height: 75px;
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    overflow: contain;
+    display: flex;
+    float: inline-start;
+    align-items: center;
+    background-color:rgb(33, 38, 46);
+    text-align: center;
+    z-index: 1;
+} 
+
+
+body { background-color: rgb(33, 38, 46);
+        margin: 5px;
         
 
 
@@ -11,21 +31,6 @@ body { background-color: rgb(37, 76, 142);
 
 }
 
-.topinspace { 
-    height: 75px;
-    width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(152, 77, 23);
-    position: sticky;
-    top: 0;
-    left: 0;
-    overflow: contain;
-    display: flex;
-
-    align-items: center;
-    background-color: antiquewhite;
-    text-align: center;
-}
 
 .topinspace > p {
     text-align: center;
@@ -40,7 +45,21 @@ body { background-color: rgb(37, 76, 142);
 .topinspace > button { position: relative;
     left: 700px;
     top: 0px;
+   
 }
+
+.delivery {
+    height: 600px;
+    border-radius: 4px;
+
+
+
+
+}
+
+
+.delivery 
+
 
 
 .topinspace > img {float: left;}
@@ -61,15 +80,18 @@ body { background-color: rgb(37, 76, 142);
 
     display: grid;
     grid-template-columns: 20% 60% 20%;
+    font-size: 1em;
+    border-radius: 50%;
+    
 
 }
 
-.cargobox > div:nth-child(odd) {background-color:antiquewhite;}
+.cargobox > div:nth-child(odd) {background-color:rgb(255, 255, 255);}
 
 .bar-ceiling {
     width:100vw; 
     height: 20px;
-    background-color: rgb(172, 27, 27);
+    background-color: rgb(255, 255, 255);
 }
 
 .sidebars {display: grid;
@@ -107,7 +129,7 @@ button {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: rgb(11, 61, 145);
+    background-color: rgb(33, 38, 46);
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
@@ -181,14 +203,74 @@ p {transition: .8s;}
 
 .simple {
   width:50vw;
-  background-color:antiquewhite;
+  background-color:rgb(153, 130, 99);
+  padding: 3px;
   height: 70px;
+  border-color: rgb(108, 86, 56);
+  border: 5px inset;
+  position: relative;
+  left: 110%;
+  top: 0;
+  overflow: scroll;
 }
+
+
+.boxes {
+    
+background-color:antiquewhite;
+margin: 10px;
+display: grid;
+grid-template-columns: 70% 30%;
+position: relative;
+
+
+}
+
+.boxes > img:hover {
+    
+    width: 90vw;
+    height: 90vh;
+position: fixed;
+top: 60px;
+left: 30px;
+border: green 3px;
+}
+
+
+.nasared { 
+    background-color:  rgb(202, 27, 27) ;
+    border: white double;
+    text-align: center;
+}
+
+
+.nasared > h1 {color: antiquewhite;}
 
 .yup {background-color: antiquewhite;}
 .anna {background-color: rgb(246, 207, 207);}
+
+
+
+.two {background-color:rgb(185, 30, 74) ;}
+
+.three {background-color:rgb(149, 29, 131) ; ;}
 
 div {padding:5px;
 margin:3px;}
 
 @keyframes sensorgo { from {opacity: .5;} to {opacity: 1;}}
+
+@media screen and (max-width:800px) 
+{  
+
+
+main {
+
+    flex-direction: column}
+ 
+h1 {font-size: smaller;}
+.cargobox {flex-direction:column ;}
+header {flex-direction: column; 
+
+}
+}
